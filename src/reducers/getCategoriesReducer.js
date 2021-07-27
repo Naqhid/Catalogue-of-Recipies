@@ -31,3 +31,5 @@ const categoriesReducer = (state = INITIAL_STATE, action) => {
 };
 
 export default categoriesReducer;
+
+// category reducer stuff
