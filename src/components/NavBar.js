@@ -17,7 +17,7 @@ const NavBar = () => {
         name="The Book of Recipes"
         active={activeItem === 'home'}
         onClick={handleItemClick}
-        as={Link}
+        as={Links}
         to="/"
       />
     </Menu>
