@@ -24,3 +24,5 @@ const Home = () => {
   );
 };
 export default Home;
+
+// add home container
