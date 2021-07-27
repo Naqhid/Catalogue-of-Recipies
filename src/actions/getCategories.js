@@ -25,3 +25,5 @@ export const fetchCategoriesStartAsync = () => {
       .catch(error => dispatch(fetchCategoriesFailure(error)));
   };
 };
+
+// actions for categories
