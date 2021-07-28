@@ -88,5 +88,3 @@ const IngredientsList = () => {
 };
 
 export default IngredientsList;
-
-// show ingredients

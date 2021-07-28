@@ -17,7 +17,7 @@ const NavBar = () => {
         name="The Book of Recipes"
         active={activeItem === 'home'}
         onClick={handleItemClick}
-        as={Links}
+        as={Link}
         to="/"
       />
     </Menu>
@@ -25,5 +25,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-// add-navbar
