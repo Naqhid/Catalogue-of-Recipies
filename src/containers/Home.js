@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import Categories from '../components/Categories';
 import MealList from './MealList';
-import { fetchIngredientsStartAsync } from '../actions/getIngredient';
+import { fetchIngredientsStartAsync } from '../actions/getIngredients';
 
 const Home = () => {
   const [state, setState] = useState('Beef');
@@ -24,5 +24,3 @@ const Home = () => {
   );
 };
 export default Home;
-
-// add home container
