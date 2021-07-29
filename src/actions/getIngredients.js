@@ -15,6 +15,7 @@ export const fetchIngredientsFailure = error => ({
   error,
 });
 
+/* eslint-disable arrow-parens */
 // eslint-disable-next-line arrow-body-style
 export const fetchIngredientsStartAsync = id => {
   return dispatch => {
