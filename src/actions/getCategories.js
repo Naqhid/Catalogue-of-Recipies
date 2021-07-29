@@ -1,3 +1,4 @@
+/* eslint-disable arrow-parens */
 import axios from 'axios';
 import { CategoriesActionTypes } from './actionTypes';
 
@@ -5,7 +6,7 @@ export const fetchCategoriesStart = () => ({
   type: CategoriesActionTypes.FETCH_DATA_START,
 });
 
-export const fetchCategoriesSuccess = categories => ({
+export const fetchCategoriesSuccess = (categories) => ({
   type: CategoriesActionTypes.FETCH_DATA_SUCCEESS,
   categories,
 });

@@ -17,7 +17,7 @@ export const fetchMealsFailure = (error) => ({
 });
 
 // eslint-disable-next-line arrow-body-style
-export const fetchMealsStartAsync = meals => {
+export const fetchMealsStartAsync = (meals) => {
   return dispatch => {
     dispatch(fetchMealsStart());
     axios
