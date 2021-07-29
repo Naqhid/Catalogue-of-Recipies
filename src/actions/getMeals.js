@@ -1,3 +1,4 @@
+/* eslint-disable arrow-parens */
 import axios from 'axios';
 import { MealsActionTypes } from './actionTypes';
 
@@ -5,12 +6,12 @@ export const fetchMealsStart = () => ({
   type: MealsActionTypes.FETCH_MEALS_START,
 });
 
-export const fetchMealsSuccess = meals => ({
+export const fetchMealsSuccess = (meals) => ({
   type: MealsActionTypes.FETCH_MEALS_SUCCEESS,
   meals,
 });
 
-export const fetchMealsFailure = error => ({
+export const fetchMealsFailure = (error) => ({
   type: MealsActionTypes.FETCH_MEALS_FAILURE,
   error,
 });
